@@ -6,17 +6,34 @@ Base de conhecimento pessoal sobre AI safety, alignment, e governance.
 
 ```
 ai-safety/
-├── notes/          # Notas de leitura e análise
-├── resources/      # Links, livros, cursos, organizações
-├── study-plan/     # Plano de estudo estruturado
-└── ideas/          # Reflexões e perguntas em aberto
+├── CLAUDE.md                       # AI agent entry point
+├── CHANGELOG.md                    # Versão e histórico
+├── docs/
+│   ├── 0_GROUND_RULES.md          # Convenções e regras
+│   ├── 1_CONTEXT.md               # Motivação e objectivos
+│   ├── 2_ARCHITECTURE.md          # Estrutura, templates, convenções
+│   └── 5_ROADMAP_AND_TASKS.md     # Roadmap de estudo e progresso
+├── concepts/                       # Um ficheiro por conceito de AI safety
+├── readings/                       # Notas de leitura (livros, artigos, cenários)
+├── resources/                      # Links curados (cursos, organizações, pessoas)
+├── study-plan/                     # Planos de estudo
+└── ideas/                          # Perguntas abertas e reflexões
 ```
 
-## Ponto de partida
+## Como usar
 
-Leitura inicial: [AI 2027](https://ai-2027.com) — cenário de forecasting sobre o desenvolvimento de AGI até 2027, escrito por ex-investigadores da OpenAI.
+- **concepts/** — conceitos-chave de AI safety, um por ficheiro
+- **readings/** — notas de leitura organizadas por fonte
+- **resources/** — links curados (livros, cursos, organizações)
+- **study-plan/** — plano de estudo e progresso
+- **ideas/** — perguntas em aberto e reflexões
 
-## Próximo passo
+## Estado actual
 
-Curso **AI Safety Fundamentals: Governance** — [BlueDot Impact](https://aisafetyfundamentals.com)
-8 semanas, ~3h/semana, gratuito.
+- Leitura concluída: [AI 2027](https://ai-2027.com)
+- Próximo: BlueDot AI Safety Fundamentals — Governance
+- Próxima leitura: *The Alignment Problem* (Brian Christian)
+
+## Governance
+
+Estrutura adaptada do [ai-product-architecture-template](https://github.com/gtcuco-personal/ai-product-architecture-template).
