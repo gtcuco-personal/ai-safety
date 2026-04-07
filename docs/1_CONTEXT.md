@@ -1,14 +1,26 @@
 # Context
 
-## Quem
+## Author
 
-| Campo | Valor |
+| Field | Value |
 |-------|-------|
-| **Autor** | Gustavo Teixeira Cuco |
+| **Name** | Gustavo Teixeira Cuco |
 | **Background** | Produto, finanças, imobiliário |
-| **Localização** | Portugal |
+| **Location** | Portugal |
 
-## Porquê
+## Vision
+
+Um mundo onde as decisões sobre IA são tomadas por pessoas informadas, não por quem tem mais acesso.
+
+## Mission
+
+Construir conhecimento pessoal sólido sobre AI safety e governance para contribuir de forma informada.
+
+## North Star Metric
+
+Conseguir explicar o problema de alinhamento a alguém sem background em 5 minutos, ter uma opinião própria sobre onde o risco é maior, e conhecer pelo menos 3 pessoas que trabalham na área.
+
+## Value Proposition
 
 O mundo vai mudar como nunca. E já está. Não podemos estar de braços cruzados e fingir que não é connosco.
 
@@ -18,29 +30,23 @@ Este repo existe para:
 3. Perceber se faz sentido mover nesta direcção profissionalmente
 4. Não ser manipulável pela narrativa "temos de ganhar à China"
 
-## North Star
+## Scope
 
-- Conseguir explicar o problema de alinhamento a alguém sem background em 5 minutos
-- Ter uma opinião própria sobre onde o risco é maior e porquê
-- Conhecer pelo menos 3 pessoas que trabalham na área
-
-## Âmbito
-
-**Cobre:**
+**Covers:**
 - AI alignment (problema técnico)
 - AI governance (problema político e institucional)
 - AI safety (umbrella term)
 - Forecasting sobre desenvolvimento de AGI/ASI
 
-**Não cobre:**
+**Does NOT cover:**
 - ML engineering ou implementação de modelos
 - AI para product management ou negócios
 - Notícias diárias sobre AI
 
-## Decisões
+## Key Decisions
 
-| # | Decisão | Data | Racional |
-|---|---------|------|----------|
+| # | Decision | Date | Rationale |
+|---|----------|------|-----------|
 | 1 | Começar por governance, não alinhamento técnico | 2026-04 | Background não-técnico; governance alavanca competências existentes |
 | 2 | BlueDot como estrutura principal | 2026-04 | Currículo peer-reviewed, gratuito, comunidade |
-| 3 | Repo com governance template | 2026-04-07 | Consistência, compatibilidade com AI agents |
+| 3 | Repo com governance template | 2026-04-07 | Consistência com outros repos, compatibilidade com AI agents |

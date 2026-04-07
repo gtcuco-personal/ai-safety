@@ -1,28 +1,42 @@
 # Ground Rules
 
-## Idioma
+## Stack
 
-Todo o conteúdo em português (pt-PT), excepto citações de fontes em inglês.
+| Layer | Technology | Version |
+|-------|-----------|---------|
+| Content | Markdown | — |
+| Version control | Git + GitHub | — |
 
-## Regras invioláveis
+> **The stack above is fixed.** Do not introduce alternatives without explicit approval.
 
-1. **Um conceito por ficheiro** em `concepts/` — sem mega-documentos
-2. **Uma fonte por ficheiro** em `readings/` — cada livro/artigo/cenário tem o seu ficheiro
-3. **Citar sempre fontes** — link para o original quando se referem afirmações
-4. **Datar todas as entradas** — ISO 8601 (YYYY-MM-DD)
-5. **Sem conteúdo duplicado** — se algo pertence a `resources/`, não repetir em `readings/`
-6. **Template obrigatório** — ficheiros em `readings/` e `concepts/` seguem os templates em `docs/2_ARCHITECTURE.md`
-7. **Commits atómicos** — um tópico por commit
+## Inviolable Rules
 
-## Nomes de ficheiros
+1. **One concept per file** in `concepts/` — no mega-documents
+2. **One source per file** in `readings/` — each book/article/scenario gets its own file
+3. **Always cite sources** — link to the original when referencing claims
+4. **Date all entries** — ISO 8601 (YYYY-MM-DD)
+5. **No duplicated content** — if something belongs in `resources/`, don't repeat it in `readings/`
+6. **Template obrigatório** — files in `readings/` and `concepts/` follow the templates in `docs/2_ARCHITECTURE.md`
+7. **Atomic changes** — one topic per commit
+8. **No unrelated refactoring** — one concern per task
+9. **No file renaming or deletion** outside task scope
+10. **Repo is the single source of truth** — all knowledge lives here in Markdown
 
-- Minúsculas, hífens para espaços: `the-alignment-problem.md`
-- Sem prefixos numéricos em pastas de conteúdo (`readings/`, `concepts/`, `ideas/`)
-- Prefixos numéricos apenas em `docs/` para ordenação
+## Content Language
 
-## Ficheiros protegidos
+All content in Portuguese (pt-PT), except when quoting English sources.
 
-Alterações a estes ficheiros devem actualizar `CHANGELOG.md`:
+## File Naming
+
+- Lowercase, hyphens for spaces: `the-alignment-problem.md`
+- No numbered prefixes in content folders (`readings/`, `concepts/`, `ideas/`)
+- Numbered prefixes only in `docs/` for ordering
+
+## Protected Files (Read-Only)
+
+These files are managed by governance — changes require updating `CHANGELOG.md`:
+
 - `CLAUDE.md`
+- `SYSTEM_PROMPT.md`
 - `docs/0_GROUND_RULES.md`
-- `docs/2_ARCHITECTURE.md`
+- `.gitignore`

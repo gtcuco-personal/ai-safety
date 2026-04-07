@@ -1,35 +1,42 @@
 # Roadmap & Tasks
 
-> **Última actualização:** 2026-04-07
+> **Last updated:** 2026-04-07
 
-## Formato
+## Task Format
 
 ```
-- YYYY-MM-DD — Descrição breve -> `ficheiro1`, `ficheiro2`
+- YYYY-MM-DD — Brief description → `file1`, `file2`
 ```
 
-## Concluído
+## Completed
 
-- 2026-04-07 — Notas de leitura AI 2027 -> `readings/ai-2027.md`
-- 2026-04-07 — Repo criado com governance template -> todos os ficheiros
+- 2026-04-07 — Governance structure from ai-product-architecture-template → all files
+- 2026-04-07 — AI 2027 reading notes → `readings/ai-2027.md`
+- 2026-04-07 — First concept note (alignment) → `concepts/alignment.md`
+- 2026-04-07 — Resource index → `resources/index.md`
+- 2026-04-07 — 90-day study plan → `study-plan/90-days.md`
+- 2026-04-07 — Open questions → `ideas/open-questions.md`
 
-## Em progresso
+## In Progress
 
 - [ ] BlueDot: AI Safety Fundamentals — Governance (semanas 1-8)
-- [ ] *The Alignment Problem* (Brian Christian) — leitura
+- [ ] *The Alignment Problem* (Brian Christian) — reading
 
 ## Backlog
 
-### Alta prioridade
-- [ ] Completar curso BlueDot
-- [ ] Criar notas de conceito: alignment, interpretability, governance, existential risk
-- [ ] Ler e anotar *Human Compatible* (Stuart Russell)
+### High Priority
 
-### Média prioridade
-- [ ] Ler 5-10 artigos do GovAI (governance.ai/research)
-- [ ] Contactar EA Portugal
-- [ ] Criar mapa de conceitos ligando readings a concepts
+- [ ] Complete BlueDot course
+- [ ] Create concept notes: interpretability, governance, existential-risk
+- [ ] Read and annotate *Human Compatible* (Stuart Russell)
 
-### Baixa prioridade
-- [ ] Explorar track técnico BlueDot
-- [ ] Ler *Power and Progress* (Acemoglu)
+### Medium Priority
+
+- [ ] Read 5-10 GovAI articles (governance.ai/research)
+- [ ] Contact EA Portugal
+- [ ] Create concept map linking readings to concepts
+
+### Low Priority
+
+- [ ] Explore BlueDot technical track
+- [ ] Read *Power and Progress* (Acemoglu)
