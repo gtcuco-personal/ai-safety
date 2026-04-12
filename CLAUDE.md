@@ -82,6 +82,7 @@ Before starting any task, load only the files relevant to that task type. Do not
 | Adicionar recurso | `docs/0_GROUND_RULES.md`, `docs/2_ARCHITECTURE.md` | `docs/1_CONTEXT.md` |
 | Planeamento / reflexão | `docs/1_CONTEXT.md`, `docs/5_ROADMAP_AND_TASKS.md` | `docs/2_ARCHITECTURE.md` |
 | Governance change | `docs/0_GROUND_RULES.md`, `SYSTEM_PROMPT.md` | All others |
+| Agent skill — create/edit | `docs/9_AGENT_SKILLS.md`, `skills/template/SKILL.md` | All others |
 | Agent safety review | `docs/10_AGENT_SAFETY.md`, `SYSTEM_PROMPT.md` | All others |
 
 > Always load `docs/0_GROUND_RULES.md` for any content task — it is the override document.
