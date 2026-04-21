@@ -6,4 +6,5 @@
 .DS_Store
 
 # Claude Code
-.claude/
+# Claude Code — commit shared config (agents, settings.json), ignore per-user overrides
+.claude/settings.local.json
