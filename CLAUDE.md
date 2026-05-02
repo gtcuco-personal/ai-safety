@@ -85,6 +85,7 @@ Before starting any task, load only the files relevant to that task type. Do not
 | Agent skill — create/edit | `docs/9_AGENT_SKILLS.md`, `skills/template/SKILL.md` | All others |
 | Agent safety review | `docs/10_AGENT_SAFETY.md`, `SYSTEM_PROMPT.md` | All others |
 
+| Code — content layer decision (i18n vs storage vs MD) | `docs/0_GROUND_RULES.md`, `docs/7_CONTENT_I18N.md`, `docs/2_ARCHITECTURE.md` | `docs/3_UI_UX_GUIDELINES.md`, `docs/6_CONTENT_AND_SOCIAL.md` |
 > Always load `docs/0_GROUND_RULES.md` for any content task — it is the override document.
 > Always load `tasks/lessons.md` at session start for any task type — it contains repo-specific corrections.
 
