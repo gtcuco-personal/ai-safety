@@ -15,6 +15,8 @@ This project uses modular documentation in `/docs/`. Consult the relevant files 
 | `docs/2_ARCHITECTURE.md` | Directory structure, templates, conventions |
 | `docs/5_ROADMAP_AND_TASKS.md` | Study roadmap, progress tracking, backlog |
 | `docs/decisions/` | Local ODRs — decisions made within this repo |
+| `docs/13_COMPLIANCE_FRAMEWORKS.md` | Compliance framework directory — which standards apply per profile (universal, ai-governance, security, health, finance, climate) and when to activate them |
+| `docs/14_AI_GOVERNANCE.md` | AI governance — EU AI Act risk classification, ISO/IEC 42001:2023 AIMS, NIST AI RMF, AI inventory, risk register, human oversight, incident response |
 | `docs/decisions/template/` | Template ODRs — inherited from the base governance template |
 
 ### Conflict Resolution
