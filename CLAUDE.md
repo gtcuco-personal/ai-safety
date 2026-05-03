@@ -84,6 +84,8 @@ Before starting any task, load only the files relevant to that task type. Do not
 | Governance change | `docs/0_GROUND_RULES.md`, `SYSTEM_PROMPT.md` | All others |
 | Agent skill — create/edit | `docs/9_AGENT_SKILLS.md`, `skills/template/SKILL.md` | All others |
 | Agent safety review | `docs/10_AGENT_SAFETY.md`, `SYSTEM_PROMPT.md` | All others |
+| Compliance review | `docs/0_GROUND_RULES.md`, `docs/13_COMPLIANCE_FRAMEWORKS.md`, `SECURITY.md` | All others |
+| AI governance / EU AI Act / risk classification | `docs/14_AI_GOVERNANCE.md`, `docs/1_BUSINESS_CONTEXT.md` | All others |
 
 | Code — content layer decision (i18n vs storage vs MD) | `docs/0_GROUND_RULES.md`, `docs/7_CONTENT_I18N.md`, `docs/2_ARCHITECTURE.md` | `docs/3_UI_UX_GUIDELINES.md`, `docs/6_CONTENT_AND_SOCIAL.md` |
 > Always load `docs/0_GROUND_RULES.md` for any content task — it is the override document.
