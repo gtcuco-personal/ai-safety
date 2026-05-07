@@ -6,7 +6,7 @@ Base de conhecimento pessoal sobre AI safety, alignment, e governance.
 
 | Key | Value |
 |-----|-------|
-| **Local path** | `~/Documents/github/ai-safety` |
+| **Local path** | `~/devs/github/ai-safety` |
 | **Remote** | `https://github.com/gtcuco-personal/ai-safety.git` |
 | **GitHub account** | `gtcuco-personal` |
 | **Production URL** | N/A |
