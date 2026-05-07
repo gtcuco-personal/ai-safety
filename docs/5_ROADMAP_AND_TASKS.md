@@ -1,6 +1,6 @@
 # Roadmap & Tasks
 
-> **Last updated:** 2026-04-07
+> **Last updated:** 2026-05-07
 
 ## Task Format
 
@@ -9,6 +9,12 @@
 ```
 
 ## Completed
+
+
+### 2026-05-07 — Migração path local: ~/Documents/github → ~/devs/github (#10)
+
+- 2026-05-07 — Repo movido localmente para fora do iCloud Drive (eviction de ficheiros provocava falhas de acesso intermitentes)
+- 2026-05-07 —  actualizado em PR #10
 
 - 2026-04-07 — Governance structure from ai-product-architecture-template → all files
 - 2026-04-07 — AI 2027 reading notes → `readings/ai-2027.md`
