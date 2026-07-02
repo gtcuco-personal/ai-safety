@@ -1,6 +1,6 @@
 # SYSTEM OPERATING INSTRUCTIONS
 
-> Version: 1.18 — Adapted from ai-product-architecture-template v1.13 for knowledge base repos.
+> Version: 2.0 — Adapted from ai-product-architecture-template v1.13 for knowledge base repos.
 
 ---
 
@@ -193,6 +193,7 @@ See `docs/10_AGENT_SAFETY.md` for the full policy: irreversible action gates, ru
 
 | Version | Date | Changes |
 |---|---|---|
+| 2.0 | 2026-07-02 | Synced to template v2.0 via /sync-repos: docs/6_HEALTH_CHECK.md renamed to docs/15_HEALTH_CHECK.md; structural gaps filled per audit (see PR). Full v2.0 content (Applicability Gate, lean-by-default tags, SEO/AEO merge into 6_CONTENT_AND_SOCIAL.md) not yet applied — pending a future content sync. |
 | 1.18 | 2026-05-17 | Added `docs/12_DEPENDENCY_MANAGEMENT.md` (licence policy, SBOM, SLSA Level 2, upgrade strategy, CVE SLAs, EOL management, CRA linkage) + ODR-006. 4-location sync: §1 source table, §6 trigger matrix, CLAUDE.md, README.md. SECURITY.md Dependencies section updated |
 | 1.17 | 2026-05-17 | Added `docs/11_TESTING.md` (testing pyramid, framework selection, coverage, CI/CD gates, AI-specific evals linked to ISO 42001 A.7.2). Added ODR-005 (testing governance + 4-location doc sync policy). Updated §1 source table, §6 trigger matrix, CLAUDE.md Context Loading Policy (2 new task types), README.md directory listing |
 | 1.16 | 2026-05-17 | Compliance refresh: EU Cyber Resilience Act (CRA, Reg. 2024/2847) + SBOM added to Tier 3; ISO 25010:2023 Safety characteristic + Flexibility rename; ISO 42001 Annex SL note; OWASP ASVS + NIST SSDF in Tier 3; GDPR Art. 25 + RoPA; Privacy by Design checklist; NIS2 scope note; PCI DSS v3.2.1 EOL; NIST CSF 2.0 Govern function note; vulnerability disclosure timeline + ISO 29147/30111 reference; §6 trigger matrix rows for SBOM/testing/dependency |

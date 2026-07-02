@@ -8,3 +8,15 @@
 # Claude Code
 # Claude Code — commit shared config (agents, settings.json), ignore per-user overrides
 .claude/settings.local.json
+
+# dados sensíveis — nunca versionar
+*IRS*
+*fatura*
+*faturas*
+*invoice*
+*recibo*
+*comprovativo*
+*.nif
+*IBAN*
+secrets/
+*.env.local
