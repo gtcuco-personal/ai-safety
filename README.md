@@ -1,5 +1,7 @@
 # AI Safety
 
+Shared operating policy (v2.0) is defined in [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md).
+
 Base de conhecimento pessoal sobre AI safety, alignment, e governance.
 
 ## Estrutura
