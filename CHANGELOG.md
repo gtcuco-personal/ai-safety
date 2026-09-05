@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-03 — Redução de execuções do GitHub Actions
+
+- Centralizada a detecção de Node, Deno e fixtures do template num único job; os jobs pesados deixam de arrancar apenas para fazer skip.
+- `build-test`, `deno-check`, `template-tests` e `governance-check` passam a correr apenas em pull requests; `gitleaks` mantém cobertura em pull requests e em pushes directos para `main`.
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
