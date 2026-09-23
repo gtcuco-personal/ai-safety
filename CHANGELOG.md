@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-23 — `ci.yml` actualizado para o template v5
+
+Propagação depois de a organização `q-liri` esgotar os 2 000 minutos de Actions a 20/09. A causa não era daquele repo: o template já tinha o gate que impede um push a `main` de repetir a suite, e a auditoria do `/sync-repos` verificava *features presentes* e não *versão* — por isso não via repos atrasados. Daí o `ci-template-version` no cabeçalho.
+
+A v5 traz: o `detect` a dizer também **o que mudou**, não só que stack existe; um `typecheck` que não existia; e o passo de testes na forma honesta — corre quando o script existe, avisa quando não, em vez de a ausência passar por sucesso. O `gitleaks` continua sem `needs` e sem filtro, em todos os eventos e caminhos.
+
+Neste repo, sem stack de código, os jobs pesados continuam a saltar pelo gate de detecção, como antes.
+
 ## 2026-09-09 — Governance policy v3.1 sync
 
 - Aligned the portable agent entry point, runtime-owned instruction hierarchy,
